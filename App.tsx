@@ -19,7 +19,6 @@ export default function App() {
   }
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
       <button onClick={start}>start</button>
       <button onClick={pause}>pause</button>
       <button onClick={stop}>stop</button>
@@ -34,7 +33,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#0000FF',
     alignItems: 'center',
     justifyContent: 'center',
   },

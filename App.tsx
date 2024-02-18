@@ -1,4 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
+import { useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
   }
   return (
     <View style={styles.container}>
+      <label htmlFor="html">00:00:00</label>
       <button onClick={start}>start</button>
       <button onClick={pause}>pause</button>
       <button onClick={stop}>stop</button>
